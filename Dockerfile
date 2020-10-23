@@ -23,7 +23,7 @@ RUN set -xe \
         less \
 	      rsync \
         groff \
-        python2 \
+        python \
         py-pip \
         libpng \
         graphviz \
