@@ -35,7 +35,7 @@ RUN set -xe \
     && wget https://psysh.org/psysh \
     && chmod +x psysh \
     && mv psysh /usr/local/bin \
-    && pip install awscli s3cmd python-magic \
+
     && apk --purge -v del py-pip 
 
 ENV NODE_VERSION 12.13.0
