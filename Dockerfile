@@ -53,7 +53,7 @@ RUN addgroup -g 1000 node \
         libgcc \
         linux-headers \
         make \
-        python \
+        python3 \
         tar \
   # gpg keys listed at https://github.com/nodejs/node#release-keys
   && for key in \
